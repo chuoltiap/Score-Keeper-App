@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: skyblue;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(250, 251, 252);
+    background-position: fixed;
+    text-align: center;
+    justify-content: center;
+}
+.navbar h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.manutd > img{
+    height: 330px;
+    width: 240px;
+}
+.manutd > h2{
+    text-align: center;
+}
+.liverpool > h2{
+    text-align: center;
+}
+.goal1 p{
+    font-size: 100px;
+    text-align: center;
+    color:white;
+}
+.goal2 p{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+button{
+    text-align:  center;
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    border-radius:5px;
+    margin-left: 20px;
+}
+.vl {
+    border-left: 10px solid black;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 80px;
+    color: white
+}
+#reset{
+    display: block;
+    margin: auto;
+    text-align: center;
+}

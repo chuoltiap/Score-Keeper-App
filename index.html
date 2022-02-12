@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Score Keeping App</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Score-Keeper-App</h1>
+    </div>
+    <div class="timer">
+        <p id="demo"></p>
+    </div>
+    <section>
+        <div class="manutd">
+            <img src="./Manchester_United_FC_crest.svg.png" alt="ManUtd logo">
+            <h2>Manchester United</h2><br> <br><br>
+            <div class="goal1">
+                <p id="manutdgoal">0</p>
+            </div><br><br><br>
+                <button onclick="increaseGoal1()">GOAL</button><br><br><br>
+                <div class="goal1">
+                    <p id="manutdfoul">0</p>
+                </div><br><br><br>
+            <button onclick="increaseFoul1()">FOUL</button><br><br>
+        </div>
+        <div class="vl"></div>
+        <div class="liverpool">
+            <img src="./Liverpool_FC_logo.svg" alt="liverpool logo">
+            <h2>Liverpool FC</h2><br><br> <br>
+            <div class="goal2">
+                <p id="liverpoolgoal">0</p>
+            </div><br><br><br>
+                <button onclick="increaseGoal2()">GOAL</button><br><br><br>
+                <div class="goal1">
+                    <p id="liverpoolfoul">0</p>
+                </div><br><br><br>
+                <button onclick="increaseFoul2()">FOUL</button><br><br>
+        </div><br><br><br>
+    </section>
+    <div id="reset">
+        <button onclick="refreshButt()">RESET</button>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
